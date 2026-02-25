@@ -78,3 +78,53 @@ body:before {
   line-height: 1.5;
   margin-bottom: 1rem;
 }
+
+.my-work-title {
+    font-size: 24px;
+    padding: 0 4rem 0 4rem; 
+}
+.projects-container {
+    display:grid;
+    grid-template-columns: auto auto auto ;
+    gap: 2rem;
+    padding: 0 4rem 0 4rem; 
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    
+}
+.project h3 {
+    font-size: 24px;
+    background-color: #3abedc;
+    margin: 0;
+
+    color: #ffffff;
+    text-align: center;
+    height:200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 0 2rem; 
+}
+
+.project-name{
+    font-size: 24px;
+}
+
+.project-description{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    padding: 0 2rem 0 2rem ;
+}
